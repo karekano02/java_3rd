@@ -1,5 +1,5 @@
 import java.util.*;
-//2차운 배열 빙고게임
+//2차원 배열 빙고게임
 class MultiArrEx2{
     public static void main(String[] arg){
         final int SIZE = 5;
