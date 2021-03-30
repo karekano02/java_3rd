@@ -15,4 +15,15 @@ public class FactorialTest {
         }
         return result;
     }
+
+    //반복문
+    static int factorial_D (int a){
+        int result = 1;
+
+        while(a != 0){
+            result *= a--;
+        }
+
+        return result;
+    }
 }
