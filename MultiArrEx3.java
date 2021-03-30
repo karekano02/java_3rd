@@ -1,5 +1,6 @@
 class MultiArrEx3{
-    public static void mina(String[] arg){
+    // 행렬 곱 
+    public static void main(String[] arg){
         int [][] m1 = {
             {1,2,3,},
             {4,5,6,}
@@ -16,6 +17,16 @@ class MultiArrEx3{
 
         int[][] m3 = new int[ROW][COL];
 
-
+        for(int i = 0 ; i < ROW ; i++)
+            for(int j = 0 ; j < COL ; j++)
+                for(int k = 0 ; k < m1[i].length ; k++)
+                    m3[i][j] += m1[i][k] * m2[k][j];
+        
+        for(int i = 0 ; i < ROW ; i++){
+            for(int j = 0 ; j < COL ; j++){
+                System.out.printf("%3d ", m3[i][j]);
+            }
+            System.out.println();
+        }
     }
 }
