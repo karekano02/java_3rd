@@ -3,7 +3,7 @@ public class InstanseofTest {
     public static void main(String[] args) {
         Point3D p3D = new Point3D();
         Point t = new Point(1,2);
-        // point3D p3D1 = new Point(1,2); // 
+        // point3D p3D1 = new Point(1,2);   //error 
        Point t1 = new Point3D();
 
        System.out.println((t instanceof Object));
