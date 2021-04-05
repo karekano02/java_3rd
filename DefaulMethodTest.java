@@ -38,7 +38,7 @@ public class DefaulMethodTest {
         Child c = new Child();
         c.method1();
         c.method2();
-        MyInterface.staticMethod();
+        MyInterface.staticMethod(); 
         MyInterface2.staticmethod();
     }
 
