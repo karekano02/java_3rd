@@ -17,7 +17,7 @@ public class NewExceptionTest {
         }finally{
             deleteTempFiles();
         }
-    }
+    } 
 
     static void startInstall() throws SpaceException, MemoryException{
         if(!enoughspace())
