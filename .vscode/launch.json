@@ -1,0 +1,175 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Anonymous_class",
+            "request": "launch",
+            "mainClass": "Anonymous_class",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BindingTest3",
+            "request": "launch",
+            "mainClass": "BindingTest3",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch BlockTest",
+            "request": "launch",
+            "mainClass": "BlockTest",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch DocumentTest",
+            "request": "launch",
+            "mainClass": "DocumentTest",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch DrawShape",
+            "request": "launch",
+            "mainClass": "DrawShape",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx1",
+            "request": "launch",
+            "mainClass": "ExceptionEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx2",
+            "request": "launch",
+            "mainClass": "ExceptionEx2",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionEx3",
+            "request": "launch",
+            "mainClass": "ExceptionEx3",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialTest",
+            "request": "launch",
+            "mainClass": "FactorialTest",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiArrEx2",
+            "request": "launch",
+            "mainClass": "MultiArrEx2",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiArrEx3",
+            "request": "launch",
+            "mainClass": "MultiArrEx3",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiArrEx4",
+            "request": "launch",
+            "mainClass": "MultiArrEx4",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyMathTest2",
+            "request": "launch",
+            "mainClass": "MyMathTest2",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch NewExceptionTest",
+            "request": "launch",
+            "mainClass": "NewExceptionTest",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ParserTest",
+            "request": "launch",
+            "mainClass": "ParserTest",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PolyArgumentTest",
+            "request": "launch",
+            "mainClass": "PolyArgumentTest",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepairableTest",
+            "request": "launch",
+            "mainClass": "RepairableTest",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingletonTest",
+            "request": "launch",
+            "mainClass": "SingletonTest",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticBlockTest",
+            "request": "launch",
+            "mainClass": "StaticBlockTest",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TryWithResourceEx",
+            "request": "launch",
+            "mainClass": "TryWithResourceEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch VarArgsEx",
+            "request": "launch",
+            "mainClass": "VarArgsEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch oopCardTest",
+            "request": "launch",
+            "mainClass": "oopCardTest",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch oopReferenceParamEx3",
+            "request": "launch",
+            "mainClass": "oopReferenceParamEx3",
+            "projectName": "java_3rd_c4ae436f"
+        }
+    ]
+}
