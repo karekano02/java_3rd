@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CloneEx",
+            "request": "launch",
+            "mainClass": "CloneEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Clone",
+            "request": "launch",
+            "mainClass": "Clone",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch HashCodeEx",
             "request": "launch",
             "mainClass": "HashCodeEx",
