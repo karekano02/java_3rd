@@ -5,6 +5,7 @@ public class CloneEx1 {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
         int[] arrClone  = arr.clone();
+        arr[1] = 0;
         arrClone[0]  = 0;
 
         System.out.println(Arrays.toString(arr));

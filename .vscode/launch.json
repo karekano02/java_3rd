@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ClassEx",
+            "request": "launch",
+            "mainClass": "ClassEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch CloneEx1",
             "request": "launch",
             "mainClass": "CloneEx1",
