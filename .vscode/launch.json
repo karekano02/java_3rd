@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HashCodeEx",
+            "request": "launch",
+            "mainClass": "HashCodeEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch ExceptionRe",
             "request": "launch",
             "mainClass": "ExceptionRe",
