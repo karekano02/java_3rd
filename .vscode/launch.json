@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RandomEx2",
+            "request": "launch",
+            "mainClass": "RandomEx2",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch RandomEx1",
+            "request": "launch",
+            "mainClass": "RandomEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObjectsClass",
+            "request": "launch",
+            "mainClass": "ObjectsClass",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch WrapperEx",
             "request": "launch",
             "mainClass": "WrapperEx",
