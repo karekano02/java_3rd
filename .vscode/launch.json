@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch WrapperEx",
+            "request": "launch",
+            "mainClass": "WrapperEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MathExactEx",
+            "request": "launch",
+            "mainClass": "MathExactEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch StringEx3",
             "request": "launch",
             "mainClass": "StringEx3",
