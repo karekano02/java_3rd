@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+ 
 //랜덤함수에서 유용한 메서드
 public class RandomEx2 {
     public static void main(String[] args) {
