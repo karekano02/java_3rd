@@ -18,7 +18,7 @@ public class ScannerEx {
 
         while(sc.hasNextLine()){
             String line = sc.nextLine();
-            Scanner sc2  = new Scanner(line).useDelimiter(",");
+            Scanner sc2  = new Scanner(line).useDelimiter(",");   // 정규식이 익숙하지 않을때   StringTokenizer st = new StringTokenizer(source, ","); 단 구분자 한가지
             int sum = 0;
 
             while(sc2.hasNextLine()){

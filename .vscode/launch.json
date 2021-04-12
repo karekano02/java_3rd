@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringTokenizerEx",
+            "request": "launch",
+            "mainClass": "StringTokenizerEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch ReqularEx",
             "request": "launch",
             "mainClass": "ReqularEx",
