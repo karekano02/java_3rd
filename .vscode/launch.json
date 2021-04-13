@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FormatEx1",
+            "request": "launch",
+            "mainClass": "FormatEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalendarEx2",
+            "request": "launch",
+            "mainClass": "CalendarEx2",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch CalendarEx1",
             "request": "launch",
             "mainClass": "CalendarEx1",
