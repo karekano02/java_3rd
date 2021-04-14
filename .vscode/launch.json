@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MessageFormatEx1",
+            "request": "launch",
+            "mainClass": "MessageFormatEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChoiceFormatEx1",
+            "request": "launch",
+            "mainClass": "ChoiceFormatEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateFormatEx1",
+            "request": "launch",
+            "mainClass": "DateFormatEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch DateFormat",
+            "request": "launch",
+            "mainClass": "DateFormat",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch FormatEx1",
             "request": "launch",
             "mainClass": "FormatEx1",
