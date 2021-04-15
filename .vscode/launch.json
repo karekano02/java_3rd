@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NewTimeEx2",
+            "request": "launch",
+            "mainClass": "NewTimeEx2",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch NewTimeEx1",
+            "request": "launch",
+            "mainClass": "NewTimeEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch MessageFormatEx1",
             "request": "launch",
             "mainClass": "MessageFormatEx1",
