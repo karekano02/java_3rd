@@ -39,5 +39,6 @@ public class NewTimeEx3 {
         System.out.println("NANO= " + tmpTime.getNano());
     
         
+        
     }
 }
