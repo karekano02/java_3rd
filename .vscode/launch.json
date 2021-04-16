@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayListEx1",
+            "request": "launch",
+            "mainClass": "ArrayListEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch DateFormatterEx1",
             "request": "launch",
             "mainClass": "DateFormatterEx1",
