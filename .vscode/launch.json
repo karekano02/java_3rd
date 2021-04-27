@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArraysEx1",
+            "request": "launch",
+            "mainClass": "ArraysEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PriorityQueueEx",
+            "request": "launch",
+            "mainClass": "PriorityQueueEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueEx1",
+            "request": "launch",
+            "mainClass": "QueueEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch StackEx1",
             "request": "launch",
             "mainClass": "StackEx1",
