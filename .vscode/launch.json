@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HashSetEx",
+            "request": "launch",
+            "mainClass": "HashSetEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch ComparatorEx",
             "request": "launch",
             "mainClass": "ComparatorEx",

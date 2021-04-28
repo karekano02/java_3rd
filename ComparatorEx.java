@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
-// ComparatorEx 정렬 관련 implenets
+// ComparatorEx 정렬관련  기본 정렬 및 다른 기준으로 정렬 하고자 할때 
 public class ComparatorEx {
     public static void main(String[] args) {
         String[] strArr = {"cat", "Dog", "lion", "tiger"};
