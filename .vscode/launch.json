@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ThreadEx1",
+            "request": "launch",
+            "mainClass": "ThreadEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadEx",
+            "request": "launch",
+            "mainClass": "ThreadEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch AnnotationEx1",
             "request": "launch",
             "mainClass": "AnnotationEx1",

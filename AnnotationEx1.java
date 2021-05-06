@@ -10,10 +10,9 @@ public class AnnotationEx1 {
     public static void main(String[] args) {
         //AnnotationEx1 의 Class 객체를 얻는다.
         Class<AnnotationEx1> cls = AnnotationEx1.class;
+        TestInfo anno = (TestInfo)cls.getAnnotation(TestInfo.class);
         //클래스 객체를 의미한다. 모든 클래스 파일은 Classloader에 의해 메모리에 올라갈 때, 클래스에 대한 정보가 담긴 객체를 생성하는데 이 객체를 클래스 객체라 한다.
         // 이 객체를 참조 할 때는 '클래스이름.class'의 형식을 사용한다.
-
-        TestInfo anno = (TestInfo)cls.getAnnotation(TestInfo.class);
 
         System.out.println("anno.testedBy() = " + anno.testedBy());
         System.out.println("anno.testDate().yymmdd() = " + anno.testDate().yymmdd());
