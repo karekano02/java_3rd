@@ -1,3 +1,4 @@
+// Thread 기본 예제
 public class ThreadEx {
     public static void main(String[] args) throws Exception{
         Thread1_1 t1 = new Thread1_1();
