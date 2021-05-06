@@ -1,4 +1,4 @@
-// Enum 열거형 예제들 
+// Enum 열거형 예제들 (기본, 맴버추가, 추상메서드)
 enum Direction {EAST, SOUTH,WEST,NORTH}
 
 enum Direction_1{
@@ -37,8 +37,29 @@ enum Direction_1{
         return name()+getSymbol();
     }
 }
+
+enum Transportation{
+
+    BUS(100)    { int fare(int distance){return distance*BASIC_FARE;}},
+    TRAIN(150)  { int fare(int distance){return distance*BASIC_FARE;}},
+    SHIP(100)   { int fare(int distance){return distance*BASIC_FARE;}},
+    AIRPLANE(300){int fare(int distance){return distance*BASIC_FARE;}};
+
+    protected final int BASIC_FARE;
+
+    abstract int fare(int distance);
+
+    Transportation(int basicFare){
+        BASIC_FARE = basicFare;
+    }
+
+    public int getBasicFare(){return BASIC_FARE;}
+}
 public class EnumEx1 {
     public static void main(String[] args) {
+
+        //Ex 1
+        System.out.println("==Ex1==");
         Direction d1 = Direction.EAST;
         Direction d2 = Direction.valueOf("WEST");
         Direction d3 = Enum.valueOf(Direction.class, "EAST");
@@ -73,7 +94,7 @@ public class EnumEx1 {
         System.out.println();
 
         //Ex 2
-
+        System.out.println("===Ex2==");
         for (Direction_1 d : Direction_1.values())
             System.out.println(d.name() + " : " + d.getValue());
 
@@ -87,5 +108,15 @@ public class EnumEx1 {
         System.out.println(Direction_1.EAST.rotate(2));
         System.out.println(Direction_1.EAST.rotate(-1));
         System.out.println(Direction_1.EAST.rotate(-2));
+
+
+        //Ex 3
+        System.out.println("===Ex3===");
+
+        System.out.println("bus fare = " + Transportation.BUS.fare(100));
+        System.out.println("Train fare = " + Transportation.TRAIN.fare(100));
+        System.out.println("SHIP fare = " + Transportation.SHIP.fare(100));
+        System.out.println("AIRPLANE fare = " + Transportation.AIRPLANE.fare(100));
+
     }
 }

@@ -18,7 +18,7 @@ public class HashSetEx {
 
         //빙고
         // Set set1 = new HashSet();
-        Set set1 = new LinkedHashSet();
+        Set set1 = new LinkedHashSet();   //저장순서 위치 고정 
 
         int[][] board  = new int[5][5];
 

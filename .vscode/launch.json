@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AnnotationEx1",
+            "request": "launch",
+            "mainClass": "AnnotationEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch EnumEx1",
+            "request": "launch",
+            "mainClass": "EnumEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FruitBoxEx1",
+            "request": "launch",
+            "mainClass": "FruitBoxEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CollectionsEx1",
+            "request": "launch",
+            "mainClass": "CollectionsEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CollectionsEx",
+            "request": "launch",
+            "mainClass": "CollectionsEx",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PropertiesEx1",
+            "request": "launch",
+            "mainClass": "PropertiesEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeMapEx1",
+            "request": "launch",
+            "mainClass": "TreeMapEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch HashMapEx1",
+            "request": "launch",
+            "mainClass": "HashMapEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeSetEx1",
+            "request": "launch",
+            "mainClass": "TreeSetEx1",
+            "projectName": "java_3rd_c4ae436f"
+        },
+        {
+            "type": "java",
             "name": "Launch HashSetEx",
             "request": "launch",
             "mainClass": "HashSetEx",
