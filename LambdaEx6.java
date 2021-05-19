@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.function.*;
 
-//LambdaEx6 기본형을 사용하는 함수형 인터페이스
+//LambdaEx6 기본형을 사용하는 함수형 인터페이스  
 
 public class LambdaEx6 {
     public static void main(String[] args) {
