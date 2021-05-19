@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LambdaEx5",
+            "request": "launch",
+            "mainClass": "LambdaEx5",
+            "projectName": "java_3rd_1701141e"
+        },
+        {
+            "type": "java",
             "name": "Launch LambdaEx2",
             "request": "launch",
             "mainClass": "LambdaEx2",
