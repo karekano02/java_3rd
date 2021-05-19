@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch test01111",
+            "request": "launch",
+            "mainClass": "test01111",
+            "projectName": "java_3rd_1701141e"
+        },
+        {
+            "type": "java",
             "name": "Launch ThreadEx1",
             "request": "launch",
             "mainClass": "ThreadEx1",
