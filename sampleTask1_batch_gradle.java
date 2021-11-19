@@ -1,6 +1,4 @@
-package com.kcar.batch.jobs.sample.tasks;
 
-import com.kcar.batch.sample.service.SampleService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.batch.core.ExitStatus;
 import org.springframework.batch.core.StepContribution;
