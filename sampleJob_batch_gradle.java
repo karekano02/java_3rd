@@ -1,6 +1,4 @@
-import com.kcar.batch.jobs.sample.tasks.SampleTask1;
-import com.kcar.batch.sample.model.SampleModel;
-import com.kcar.batch.sample.service.SampleService;
+
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.batch.MyBatisCursorItemReader;
