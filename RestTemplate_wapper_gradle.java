@@ -2,7 +2,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import com.kcar.fo.sample.model.SampleModel;
+
 import lombok.extern.slf4j.Slf4j;
 import net.bytebuddy.matcher.FilterableList;
 import org.springframework.boot.autoconfigure.web.reactive.function.client.WebClientAutoConfiguration;
