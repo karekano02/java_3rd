@@ -1,5 +1,3 @@
-package com.kcar.batch.jobs.sample;
-
 import com.kcar.batch.jobs.sample.tasks.SampleTask1;
 import com.kcar.batch.sample.model.SampleModel;
 import com.kcar.batch.sample.service.SampleService;
