@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 /**
- * packageName    : com.kcar.fo.common.util
+
  * fileName       : RedisUtil
 
  * date           : 2021-10-27
